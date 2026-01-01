@@ -112,6 +112,10 @@ ul[role='list'] {
     padding: 0;
 }
 
+.flow > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
 .repel {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +137,10 @@ ul[role='list'] {
 
 .mt-xs {
     margin-block-start: var(--space-xs);
+}
+
+.mt-2xs {
+    margin-block-start: var(--space-2xs);
 }
 
 .py-xs {

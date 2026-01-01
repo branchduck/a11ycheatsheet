@@ -18,7 +18,6 @@
     <h1 class="mt-l-xl">Site-wide navigation</h1>
 
     <h2 class="mt-l-xl">Simple</h2>
-
     <div class="mt-xs">
         <Code code={simpleNavHtml} language="html" />
     </div>
