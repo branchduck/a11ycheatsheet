@@ -15,7 +15,9 @@
 
 <div class="site-wrapper">
     <SiteHeader />
-    {@render children()}
+    <div>
+        {@render children()}
+    </div>
     <SiteFooter />
 </div>
 
