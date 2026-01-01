@@ -1,10 +1,6 @@
 <script lang="ts">
-    import { page } from '$app/state';
     import { resolve } from '$app/paths';
-
-    function isCurrentPage(path: string): 'page' | undefined {
-        return page.url.pathname === path ? 'page' : undefined;
-    }
+    import { isCurrentPage } from '$lib/utils/path';
 </script>
 
 <nav>

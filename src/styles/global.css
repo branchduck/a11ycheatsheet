@@ -112,6 +112,15 @@ ul[role='list'] {
     padding: 0;
 }
 
+.repel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: var(--repel-vertical-alignment, center);
+    row-gap: var(--repel-row-gap, var(--gutter, var(--space-s-m)));
+    column-gap: var(--repel-column-gap, var(--gutter, var(--space-s-m)));
+}
+
 .site-wrapper {
     min-height: 100svh;
     width: min(720px, 100% - 32px);
