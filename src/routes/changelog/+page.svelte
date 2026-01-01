@@ -2,6 +2,10 @@
     import { resolve } from '$app/paths';
 </script>
 
+<svelte:head>
+    <title>Changelog - Accessibility Cheatsheet</title>
+</svelte:head>
+
 <main>
     <h1 class="mt-l-xl">Changelog</h1>
 

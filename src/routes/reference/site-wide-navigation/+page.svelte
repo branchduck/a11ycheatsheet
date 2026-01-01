@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-    <title>Site-wide navigation | Accessibility Cheatsheet</title>
+    <title>Site-wide navigation - Accessibility Cheatsheet</title>
 </svelte:head>
 
 <main>
