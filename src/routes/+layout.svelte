@@ -1,5 +1,6 @@
 <script lang="ts">
     import { createECInstance } from '$lib/components/code/state.svelte';
+    import '$styles/global.css';
 
     const { children } = $props();
 
@@ -10,7 +11,9 @@
     <title>Accessibility Cheatsheet</title>
 </svelte:head>
 
-{@render children()}
+<div class="wrapper">
+    {@render children()}
+</div>
 
 <!-- eslint-disable-next-line svelte/no-at-html-tags -->
 {@html `<style> ${styleContent} </style>`}

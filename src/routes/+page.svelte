@@ -3,11 +3,11 @@
 </script>
 
 <main>
-    <h1>Accessibility Cheatsheet</h1>
+    <h1 class="mt-l-xl">Accessibility Cheatsheet</h1>
 
-    <h2>Reference</h2>
+    <h2 class="mt-l-xl">Reference</h2>
 
-    <ul>
+    <ul class="mt-xs">
         <li><a href={resolve('/reference/site-wide-navigation')}>Site-wide navigation</a></li>
     </ul>
 </main>
