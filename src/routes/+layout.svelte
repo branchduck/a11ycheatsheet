@@ -15,7 +15,7 @@
 
 <div class="site-wrapper">
     <SiteHeader />
-    <div class="main-content-wrapper">
+    <div>
         {@render children()}
     </div>
     <SiteFooter />
@@ -35,7 +35,7 @@
         display: grid;
         grid-template-rows: auto 1fr auto;
 
-        > * {
+        > :global(*) {
             /* Respect the grid column width and allow grid item to shrink */
             min-width: 0;
         }
