@@ -15,7 +15,7 @@
 
 <div class="site-wrapper">
     <SiteHeader />
-    <div>
+    <div class="main-content-wrapper">
         {@render children()}
     </div>
     <SiteFooter />
@@ -26,3 +26,18 @@
 
 <!-- eslint-disable-next-line svelte/no-at-html-tags -->
 {@html `<script type="module">${scriptContent}</script>`}
+
+<style>
+    .site-wrapper {
+        min-height: 100svh;
+        width: min(720px, 100% - 32px);
+        margin-inline: auto;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+
+        > * {
+            /* Respect the grid column width and allow grid item to shrink */
+            min-width: 0;
+        }
+    }
+</style>
