@@ -9,5 +9,5 @@
             <a href={resolve('/changelog')} aria-current={isCurrentPage('/changelog')}>Changelog</a>
         </li>
     </ul>
-    <p>© Accessibility Cheatsheet, 2025 - 2026</p>
+    <p>&copy; Accessibility Cheatsheet, 2025 - 2026</p>
 </footer>
