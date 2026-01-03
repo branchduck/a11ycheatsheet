@@ -26,11 +26,11 @@
 </script>
 
 <svelte:head>
-    <title>Icon buttons - Accessibility Cheatsheet</title>
+    <title>Buttons with icons - Accessibility Cheatsheet</title>
 </svelte:head>
 
 <main>
-    <h1 class="mt-l-xl">Icon buttons</h1>
+    <h1 class="mt-l-xl">Buttons with icons</h1>
     <h2 class="mt-l-xl">With visible text label</h2>
     <div class="mt-xs">
         <Code code={withVisibleTextLabelHtml} language="html" />

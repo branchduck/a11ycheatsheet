@@ -12,8 +12,8 @@
         <li>
             <h2><time datetime="2026-01-01">January 1, 2026</time></h2>
             <p class="mt-xs">
-                Added <a href={resolve('/reference/icon-buttons')}>Icon buttons</a> reference page with
-                2 entries:
+                Added <a href={resolve('/reference/buttons-with-icons')}>Buttons with icons</a> reference
+                page with 2 entries:
             </p>
             <ul class="mt-2xs">
                 <li>With visible text label</li>
