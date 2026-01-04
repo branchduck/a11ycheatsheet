@@ -33,10 +33,10 @@
     <h1 class="mt-l-xl">Buttons with icons</h1>
     <h2 class="mt-l-xl">With visible text label</h2>
     <div class="mt-xs">
-        <Code code={withVisibleTextLabelHtml} language="html" />
+        <Code code={withVisibleTextLabelHtml} lang="html" />
     </div>
     <h2 class="mt-l-xl">With visually hidden text label</h2>
     <div class="mt-xs">
-        <Code code={withVisuallyHiddenTextLabelHtml} language="html" />
+        <Code code={withVisuallyHiddenTextLabelHtml} lang="html" />
     </div>
 </main>

@@ -33,7 +33,11 @@
         "vite": "^7.2.6"
     },
     "dependencies": {
-        "expressive-code": "^0.41.5",
-        "rehype-expressive-code": "^0.41.5"
+        "@shikijs/core": "^3.20.0",
+        "@shikijs/engine-javascript": "^3.20.0",
+        "@shikijs/langs": "^3.20.0",
+        "@shikijs/themes": "^3.20.0",
+        "@shikijs/transformers": "^3.20.0",
+        "@shikijs/types": "^3.20.0"
     }
 }

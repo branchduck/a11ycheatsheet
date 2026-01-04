@@ -2,6 +2,10 @@
     import { resolve } from '$app/paths';
 </script>
 
+<svelte:head>
+    <title>Accessibility Cheatsheet</title>
+</svelte:head>
+
 <main class="mt-l-xl">
     <h1>Accessibility Cheatsheet</h1>
     <h2 class="mt-l-xl">Tutorials</h2>

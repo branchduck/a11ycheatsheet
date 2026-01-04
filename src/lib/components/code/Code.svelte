@@ -1,19 +1,30 @@
 <script lang="ts">
-    import { toHtml } from 'expressive-code/hast';
-    import { ecInstance } from './state.svelte';
+    import { codeToHtml } from '$lib/vendor/shiki.bundle';
 
     interface Props {
         code: string;
-        language: string;
+        lang: string;
     }
 
     const props: Props = $props();
 
-    const renderedGroupAst = await ecInstance.render({
-        code: props.code,
-        language: props.language,
+    const htmlContent = await codeToHtml(props.code, {
+        lang: props.lang,
+        themes: {
+            light: 'github-light',
+        },
     });
 </script>
 
 <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-{@html toHtml(renderedGroupAst.renderedGroupAst)}
+{@html htmlContent}
+
+<style>
+    :global(.shiki) {
+        margin: 0;
+        padding: 16px 20px;
+        overflow-x: auto;
+        font-size: 0.85em;
+        line-height: 1.65;
+    }
+</style>
